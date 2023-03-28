@@ -55,3 +55,74 @@ Example:
 ![Adjacency matrix table with 5 vertex and 7 edges undirected](AdjMat57UndTable.png)
 
 - - -
+
+## **BFS** Algorithm
+
+* We start at one node
+* We search all the nodes that are directly connected with the starting node
+* We stand up in a connected node and search the other connected nodes
+* We repeat it until complete the graph
+
+With this algorithm we can know the distance between the starter node and the rest of nodes.
+
+Example:
+
+![BFS](BFS.png)
+
+Code in Java:
+
+``` Java
+public static void BFS (Graph graph, int node) {
+    // Create a queue
+    Queue<Integer> queue = new ArrayDeque<>();
+
+    // Create a visited nodes array
+    boolean[] visited = new boolean[graph.length];
+
+    // Marks the node as visited
+    visited[node] = true;
+
+    // Adds the node to the queue
+    queue.add(node);
+
+    // While until the queue is empty
+    while (!queue.isEmpty()) {
+        // Take off the node of the queue
+        node = queue.poll();
+        System.out.print(node + " ");
+
+        // Do it for every connected
+        for (int n : graph.adjList.get(node)) {
+            if (!visited[n]) {
+                // Marks as visited and take it to the queue
+                visited[n] = true;
+                queue.add(n);
+            }
+        }
+    }
+}
+```
+
+Code in .NET
+
+``` C#
+public static void BFS(Graph graph, int node) {
+    Queue<int> queue = new Queue<int>();
+    bool[] visited = new bool[graph.length];
+
+    visited[node] = true;
+    queue.Enqueue(node);
+
+    while(queue.Count > 0) {
+        node = queue.Dequeue();
+        Console.WriteLine(node + " ");
+
+        foreach (int n in graph.adjList.Find(node)) {
+            if (!visited[n]) {
+                visited[n] = true
+                queue.Enqueue(n);
+            }
+        }
+    }
+}
+```
