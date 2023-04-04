@@ -3,7 +3,7 @@ In maths we can say that a graph is a group of vertex and edges "G = (V, E)".
 
 Example of a graph with V = 3 and E = 5: 
 
-![Graph with V=3 and E=5 directed](Graph35Direct.png)
+![Graph with V=3 and E=5 directed](./img/Graph35Direct.png)
 
 - - -
 
@@ -14,18 +14,18 @@ The Edges only travels in one direction.
 
 Ex: We can see that A is connected with C but C is not connected to A.
 
-![Graph with V=3 and E=5 directed](Graph35Direct.png)
+![Graph with V=3 and E=5 directed](./img/Graph35Direct.png)
 
 ### **Undirected or Bidirectional:**
 The Edges can travel in both directions.
 
 Ex: We can see that A is connected with C and C is connected with A.
 
-![Graph with V=3 and E=5 undirected with arrows](Graph35Undirected.png)
+![Graph with V=3 and E=5 undirected with arrows](./img/Graph35Undirected.png)
 
 Also it can be represented without the arrows.
 
-![Graph with V=3 and E=5 undirected with out arrows](Graph35UndirectedWOArrows.png)
+![Graph with V=3 and E=5 undirected with out arrows](./img/Graph35UndirectedWOArrows.png)
 
 - - -
 
@@ -38,8 +38,8 @@ The sum of the elements in the list depends if the graph is undirected or direct
 
 Example:
 
-![Adjacency matrix with 5 vertex and 7 edges undirected](AdjMat57Und.png)
-![Adjacency matrix with 5 vertex and 7 edges undirected](AdjLits57UndList.png)
+![Adjacency matrix with 5 vertex and 7 edges undirected](./img/AdjMat57Und.png)
+![Adjacency matrix with 5 vertex and 7 edges undirected](./img/AdjLits57UndList.png)
 
 
 ### **Adjacency matrix**
@@ -51,8 +51,8 @@ The formula is `m[i][j] == 1`, they are connected!
 
 Example:
 
-![Adjacency matrix with 5 vertex and 7 edges undirected](AdjMat57Und.png)
-![Adjacency matrix table with 5 vertex and 7 edges undirected](AdjMat57UndTable.png)
+![Adjacency matrix with 5 vertex and 7 edges undirected](./img/AdjMat57Und.png)
+![Adjacency matrix table with 5 vertex and 7 edges undirected](./img/AdjMat57UndTable.png)
 
 - - -
 
@@ -67,7 +67,7 @@ With this algorithm we can know the distance between the starter node and the re
 
 Example:
 
-![BFS](BFS.png)
+![BFS](./img/BFS.png)
 
 Code in Java:
 
