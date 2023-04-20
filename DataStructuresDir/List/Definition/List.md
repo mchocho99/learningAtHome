@@ -50,11 +50,13 @@ Pre: "value" is the value to add to the list
 Post: value has been placed at the head of the list
 function AddFirst(value)
     n ← node(value)
-    n.next ← head
-    head ← n
-    if(tail = ø)
+    if head = ø
+        head ← n
         tail ← n
-    end
+    else
+        n.next ← head
+        head ← n
+    end if
 end AddFirst
 ```
 
@@ -158,5 +160,10 @@ end ReverseIterate
 **Space:**
 
 O(n)
+
+***
+
+You can see the examples of the operations in 
+here [link to operations](../Methods/Methods.md)
 
 
