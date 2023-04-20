@@ -50,12 +50,10 @@ Pre: "value" is the value to add to the list
 Post: value has been placed at the head of the list
 function AddFirst(value)
     n ← node(value)
-    if head = ø
-        head ← n
+    n.next ← head
+    head ← n
+    if tail = ø
         tail ← n
-    else
-        n.next ← head
-        head ← n
     end if
 end AddFirst
 ```
