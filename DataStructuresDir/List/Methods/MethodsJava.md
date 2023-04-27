@@ -58,7 +58,7 @@ public static boolean remove(Node head, int value) {
         }
         return true;
     }
-    while (n.next != null && n.next != value) {
+    while (n.next != null && n.next.value != value) {
         n = n.next;
     }
     if (n.next != null) {

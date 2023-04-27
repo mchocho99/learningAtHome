@@ -161,7 +161,10 @@ O(n)
 
 ***
 
-You can see the examples of the operations in 
-here [link to operations](../Methods/Methods.md)
+You can see the examples of the operations in Java
+here [link to operations](../Methods/MethodsJava.md)
+
+You can see the examples of the operations in C#
+here [link to operations](../Methods/MethodsC#.md)
 
 
