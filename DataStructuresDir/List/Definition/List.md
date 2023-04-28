@@ -167,4 +167,7 @@ here [link to operations](../Methods/MethodsJava.md)
 You can see the examples of the operations in C#
 here [link to operations](../Methods/MethodsC#.md)
 
+You can see the examples of the operations in Javascript
+here [link to operations](../Methods/MethodsJS.md)
+
 
