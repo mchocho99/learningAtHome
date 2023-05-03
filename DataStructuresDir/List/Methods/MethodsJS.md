@@ -1,6 +1,6 @@
 # **Operations in different lenguages**
 
-## **Javascript#**
+## **Javascript**
 
 ### Insert
 
@@ -63,6 +63,7 @@ const remove = (value) => {
     }
 
     const tail = this.tail;
+    const n = head;
 
     if (head.value === value) {
         if (tail === head) {
@@ -73,8 +74,6 @@ const remove = (value) => {
         }
         return true;
     }
-
-    const n = head;
 
     while (n.next !== null && n.next.value !== value) {
         n = n.next;

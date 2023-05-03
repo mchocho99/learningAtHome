@@ -165,9 +165,12 @@ You can see the examples of the operations in Java
 here [link to operations](../Methods/MethodsJava.md)
 
 You can see the examples of the operations in C#
-here [link to operations](../Methods/MethodsC#.md)
+here [link to operations](../Methods/MethodsCSharp.md)
 
 You can see the examples of the operations in Javascript
 here [link to operations](../Methods/MethodsJS.md)
+
+You can see the examples of the operations in PHP
+here [link to operations](../Methods/MethodsPHP.md)
 
 
